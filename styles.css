@@ -22,7 +22,6 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding: 16px 120px;
-    border-bottom: 0.5px solid  #a4a5a869;
 }
 
 .nav-link{
@@ -75,6 +74,7 @@ nav{
     ), url("./assets/hero-bg.png");
     background-position: center;
     background-size: cover;
+    border-top: 0.5px solid  #a4a5a869;
 }
 
 .hero{
@@ -134,9 +134,8 @@ nav{
 
 #new-btn {
     position: absolute;
-    top: 25px;
-    left: 45%;
-    margin-left: 170px;
+    top: 35px;
+    right: -5px;
     border-radius: 10000px;
     font-weight: 600;
     font-size: 18px;
@@ -146,4 +145,33 @@ nav{
     border: none;
     box-shadow: 0 0 15px rgba(0, 255, 136, 0.6);
 }
+
+.circle-wrap {
+    position: relative;
+    display: inline-block;
+    width: auto;
+}
+
+/* podcast */
+.podcast-section{
+    text-align: center;
+    border-bottom: 0.5px solid  #a4a5a869;
+    padding: 50px 200px 120px 200px;
+}
+
+.podcast-section h2{
+    margin-bottom: 16px;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.podcast-section p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* podcast card sections */
 
