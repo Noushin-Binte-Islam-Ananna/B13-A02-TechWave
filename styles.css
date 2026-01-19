@@ -153,10 +153,16 @@ nav{
 }
 
 /* podcast */
+
+.full-podcast-sect{
+padding: 50px 200px 120px 200px;
+}
+
 .podcast-section{
     text-align: center;
     border-bottom: 0.5px solid  #a4a5a869;
-    padding: 50px 200px 120px 200px;
+    padding-bottom: 80px;
+    
 }
 
 .podcast-section h2{
@@ -173,5 +179,44 @@ nav{
     font-weight: 400;
 }
 
-/* podcast card sections */
+/* podcast card-section */
+
+.card-box {
+    padding: 60px 0;
+    width: 100%;
+}
+
+.card-parent {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap; 
+    max-width: 1100px;
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.card h2{
+    color: #00FF88;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0; 
+}
+
+.card p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 10px; 
+}
 
