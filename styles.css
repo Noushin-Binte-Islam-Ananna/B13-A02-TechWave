@@ -67,6 +67,8 @@ body{
     padding: 10px 18px;
     font-size: 15px;
     gap: 6px;
+    display: flex;
+    align-items: center;
 }
 
 /* hero-section */
@@ -554,6 +556,12 @@ padding: 120px 0px;
     margin: 0;
 }
 
+.menu-container {
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+}
+
 .hamburger-menu{
         margin-left: 5px;
         display: none;
@@ -567,6 +575,7 @@ padding: 120px 0px;
 
     .hamburger-menu{
         margin-left: 5px;
-        display: inline;
+        display: block;
     }
 }
+
