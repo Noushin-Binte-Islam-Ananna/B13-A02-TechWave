@@ -569,6 +569,7 @@ padding: 120px 0px;
 
 /* responsive layouts for mobile device */
 @media screen and (max-width: 576px) {
+    /* nav & menu section */
     .menu-container {
         display: none; 
         flex-direction: column;
@@ -623,6 +624,49 @@ padding: 120px 0px;
         display: flex;
         align-items: center;
         line-height: 1;
+    }
+
+    /* hero section */
+    .hero-parent {
+        background-position: center top; 
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+        display: flex;
+        align-items: flex-start; 
+        justify-content: center;
+        
+        padding-top: 20px; 
+        min-height: 100vh;
+    }
+
+    .hero {
+        margin-top: -20px; 
+    }
+
+    .circle-wrap img:first-child {
+        width: 188px; 
+        height: auto;
+    }
+
+    .hero img:nth-child(2) {
+        width: 45px;
+        top: 65px;   
+    }
+
+    #new-btn {
+        top: 5px;
+        right: -15px;
+    }
+    
+    .hero h1 {
+        font-size: 32px;
+        margin-top: 15px;
+    }
+
+    .hero p {
+        font-size: 14px;
+        margin-bottom: 20px;
     }
 }
 
