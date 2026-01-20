@@ -569,13 +569,33 @@ padding: 120px 0px;
 
 /* responsive layouts for mobile device */
 @media screen and (max-width: 576px) {
-    .menu-container{
-        display: none;
+    .menu-container {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #1A0B2E; 
+        padding: 20px;
+        z-index: 100;
     }
 
-    .hamburger-menu{
-        margin-left: 5px;
-        display: block;
+    .nav-link {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
     }
+
+    #check:checked ~ .menu-container {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+    }
+    
 }
 
