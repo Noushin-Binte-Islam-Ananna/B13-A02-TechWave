@@ -13,6 +13,7 @@ body{
 .container{
     max-width: 1200px;
     margin: auto;
+    padding: 0 20px;
 }
 
 /* navbar */
@@ -57,7 +58,7 @@ nav{
     padding: 12px 20px;
     border: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 4px;
     background-image: linear-gradient(47.64deg, #F7E93F, #FB09B4, #9100F8);
@@ -89,15 +90,14 @@ nav{
     margin: 0 auto;
 }
 
-.hero img:nth-child(2) {
+.hero img:nth-child(2){
     position: absolute;
     top: 80px;
     left: 50%;
-    margin-left: -60px;
+    transform: translateX(-50%);
 }
 
 .hero h1{
-    font-style: Bold;
     font-size: 60px;
     font-weight: 800;
     margin-bottom: 8px;
@@ -155,7 +155,7 @@ nav{
 /* podcast */
 
 .full-podcast-sect{
-padding: 50px 200px 120px 200px;
+padding: 120px 0px;
 }
 
 .podcast-section{
@@ -167,7 +167,6 @@ padding: 50px 200px 120px 200px;
 
 .podcast-section h2{
     margin-bottom: 16px;
-    font-style: Bold;
     font-size: 48px;
     font-weight: 700;
     text-transform: capitalize;
@@ -229,7 +228,6 @@ padding: 50px 200px 120px 200px;
 }
 
 .techwave-title {
-    font-style: Bold;
     font-size: 48px;
     font-weight: 700;
     text-align: center;
@@ -313,13 +311,12 @@ padding: 50px 200px 120px 200px;
 
 /* Featured Episodes Section */
 .featured-episodes {
-    padding: 120px 200px;
+    padding: 120px 0;
 }
 
 .section-title {
     text-align: center;
     margin-bottom: 50px;
-    font-style: Bold;
     font-size: 48px;
     font-weight: 700;
 }
@@ -389,8 +386,6 @@ padding: 50px 200px 120px 200px;
 .card-content p { 
     margin-bottom: 25px;
     color: rgba(255, 255, 255, 0.6);
-    font-family: Inter;
-    font-style: Regular;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
@@ -461,7 +456,6 @@ padding: 50px 200px 120px 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .media-circle img{
