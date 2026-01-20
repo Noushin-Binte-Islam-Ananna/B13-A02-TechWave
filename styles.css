@@ -586,6 +586,12 @@ padding: 120px 0px;
         align-items: center;
         gap: 20px;
         margin-bottom: 20px;
+        padding: 0;
+    }
+
+    #check {
+        display: none;
+        position: absolute;
     }
 
     #check:checked ~ .menu-container {
@@ -593,9 +599,30 @@ padding: 120px 0px;
     }
 
     .hamburger-menu {
-        display: block;
+        display: flex;
+        align-items: center;
+        margin: 0;
         cursor: pointer;
     }
     
+    .hamburger-menu img {
+        height: 24px;
+        width: auto;
+    }
+    
+    .nav-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        padding: 0 20px;
+    }
+
+    .nav-inner h2 {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        line-height: 1;
+    }
 }
 
