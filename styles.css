@@ -413,6 +413,10 @@ padding: 50px 200px 120px 200px;
 }
 
 /* host challenge */
+.host-section{
+    margin-bottom: 120px;
+}
+
 .host-title{
     font-size: 48px;
     font-weight: 700;
@@ -466,3 +470,61 @@ padding: 50px 200px 120px 200px;
     object-fit: contain;
 }
 
+/* footer */
+.footer-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        rgba(0, 25, 49, 0.2),
+        rgba(0, 25, 49, 0.2)
+    ), url("./assets/footer-bg.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.footer{
+    max-width: 900px;
+    width: 100%;
+}
+
+.footer h1{
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 32px; 
+}
+
+.footer-media{
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}
+
+.footer-media img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.footer-media p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0; 
+}
+
+.footer p{
+    color: rgba(250, 250, 250, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
